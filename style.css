@@ -1,25 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-*{
+* {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
     font-family: "Rubik", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body{
-    width:100%;
+body {
+    width: 100%;
     height: 3817px;
+    background-color: #E5E5E5;
 
 }
-header img{
-    
+
+.logo {
     position: relative;
-    bottom: 10%;
-    left: 2%;
+    top: 1.2rem;
+    left: 1rem;
 }
 
-.item-menu{
+.item-menu {
     position: relative;
     text-align: center;
     list-style-type: none;
@@ -28,16 +29,16 @@ header img{
     height: 19px;
     left: 7%;
 
-    
+
 }
 
-.item-menu li{
+.item-menu li {
     display: inline;
 }
 
 
-.item-menu  li a{
-    color:#4C5D73; 
+.item-menu li a {
+    color: #4C5D73;
     padding: 1%;
     display: inline-block;
     font-style: normal;
@@ -46,7 +47,7 @@ header img{
     font-weight: 16px;
 }
 
-.menu2{
+.menu2 {
     position: relative;
     list-style-type: none;
     display: inline;
@@ -57,7 +58,7 @@ header img{
     width: 50%;
 }
 
-.menu2 a{
+.menu2 a {
     padding: 1%;
     padding-right: 3%;
     text-decoration: none;
@@ -67,44 +68,46 @@ header img{
     font-size: medium;
     font-size: 16px;
     color: #304F8C;
-   
+
 }
 
-.entrar{
+.entrar {
     border: 2px solid #304F8C;
     width: 130px;
     height: 44px;
     border-radius: 8px;
     text-align: center;
-    background-color: #ffff;
+    background-color: #E5E5E5;
     cursor: pointer;
- 
+
 }
 
-.hero{
-    
+.hero {
+
     width: 50%;
     height: 8%;
     position: relative;
     right: 22%;
-    top: 2%;
+    top: 1.5%;
+    padding-bottom: 2rem;
+
 }
 
-.hero h1{
+.hero h1 {
     font-style: bold;
     font-size: 38px;
     color: #111826;
 }
 
-.hero p{
- 
+.hero p {
+
     font-size: 15px;
-    color: #4C5D73;   
+    color: #4C5D73;
     position: relative;
     top: 5%;
 }
 
-.hero button{
+.hero button {
     border: none;
     position: relative;
     width: 230px;
@@ -112,77 +115,164 @@ header img{
     border-radius: 10px;
     background-color: #304F8C;
     color: #ffff;
-    top: 15%;
+    top: 13%;
     cursor: pointer;
+
 
 }
 
 
-.hero-right{
+.hero-right {
     position: relative;
     width: 45%;
     left: 27.5%;
-    top: -7%;   
+    top: -7%;
 }
 
-.hero-botton{
-
+.hero-botton {
+    display: flex;
     position: relative;
-    bottom:6%;
-    height: 124px;
-    width: 100%;
+    bottom: 5%;
+    width: 90%;
+    height: 6rem;
+    background-color: #ffff;
+    box-shadow: 0px 10px 40px #00000056;
+    border-radius: 10px;
+    padding: 1rem;
 }
 
-.text1{
-    width: 200px;
+.text1 {
+    padding: 2px;
+    text-align: left;
+    width: 220px;
     height: 67px;
+    border: 2px solid #ffff;
+    padding-top: 0.7rem;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    color: #4C5D73;
+}
+
+.text1 h4 {
+    color: #111826;
+}
+
+.img-1 {
+    float: left;
     position: relative;
-    right: 33%;
-    bottom: -1.2rem;
-    justify-content: space-evenly;
+    bottom: 0.7rem;
+    right: 0.2rem;
+}
+
+#servicos {
+    position: relative;
+    bottom: 4rem;
+    height: 424px;
 
 }
 
-.img-1{ 
-    float: left;  
+.texto {
+    width: 40rem;
+    position: relative;
+    right: 10.5rem;
+    height: 7rem;
+    top: 0.5rem;
+    color: #4C5D73;
 }
 
-.text2{
-    width: 210px;
+.texto h2 {
+    padding-top: 2rem;
+    color: #111826;
+}
+
+.card {
+    display: flex;
+}
+
+.box {
+    position: relative;
+    width: 15rem;
+    height: 12rem;
+    border-radius: 10px;
+    margin: 1rem;
+    background-color: #ffff;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.box {
+    border: none;
+    display: block;
+    padding: 10px;
+    top: 6rem;
+    color: #4C5D73;
+}
+
+.box h4 {
+    color: #111826;
+}
+
+.serv-icon {
+    width: 67px;
     height: 67px;
+    float: top;
+    display: block;
+    margin: 0 auto 10px;
     position: relative;
-    right: 10.1%;
-    bottom: 3rem;
-    
-
+    right: 4rem;
 }
 
-.img-2{
-    float: left;  
-}
-
-.text3{
-    width: 200px;
-    height: 67px;
+#sobre {
     position: relative;
-    left: 12.9%;
-    bottom: 7.2rem;
-
+    top: 7.5rem;
+    height: 777px;
 }
 
-.img-3{
-    float: left;  
+#sobre p {
+    color: #4C5D73;
 }
 
-.text4{
-    width: 200px;
-    height: 67px;
+.sobre-texto {
     position: relative;
-    right: -35.3%;
-    bottom: 11.35rem;
+    top: 0.5rem;
+    height: 4rem;
+    right: 2.1rem;;
+    width: 90%;
+}
+
+.sobre-texto h2 {
+    margin-top: 0.4rem;
+    color: #111826;
+}
+
+
+
+.sobre-img {
+    width: 523px;
+    height: 604px;
+    position: relative;
+    bottom: 4.5rem;
+    right: 3rem;
 
 }
 
-.img-4{ 
-    float: left;  
+.sobre-texto2 {
+    width: 580px;
+    height: 278px;
+    position: relative;
+    bottom: 30rem;
+    left: 13rem;
+}
+
+.btn-cases{
+    border: 2px solid #304F8C;
+    width: 214px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #ffff;
+    color: #304F8C;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    top: 2.5rem; 
 }
