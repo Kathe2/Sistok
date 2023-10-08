@@ -9,8 +9,10 @@
 
 body {
     width: 100vw;
-    height: 100vh;
     background-color: #E5E5E5;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -28,8 +30,6 @@ body {
     width: 455px;
     height: 19px;
     left: 7%;
-
-
 }
 
 .item-menu li {
@@ -48,14 +48,15 @@ body {
 }
 
 .menu2 {
-    position: relative;
+    position: absolute;
     list-style-type: none;
     display: inline;
-    width: fit-content;
-    height: 19px;
-    position: relative;
-    left: 45%;
-    width: 50%;
+    padding-top: 0.7rem;
+    padding-left: 12rem;
+    height: 4rem;
+    width: 27rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu2 a {
@@ -68,7 +69,6 @@ body {
     font-size: medium;
     font-size: 16px;
     color: #304F8C;
-
 }
 
 .entrar {
@@ -79,18 +79,15 @@ body {
     text-align: center;
     background-color: #E5E5E5;
     cursor: pointer;
-
 }
 
 .hero {
-
     width: 50%;
-    height: 8%;
-    position: relative;
-    right: 22%;
-    top: 10%;
+    height: 43%;
     padding-bottom: 2rem;
-
+    justify-content: center;
+    align-items: center;
+    transform: translate(-15rem, 5.3rem);   
 }
 
 .hero h1 {
@@ -110,36 +107,37 @@ body {
 
 .hero button {
     border: none;
-    position: relative;
     width: 230px;
     height: 60px;
     border-radius: 10px;
     background-color: #304F8C;
     color: #ffff;
-    top:100%;
+    transform: translateY(1.8rem);
     cursor: pointer;
-
-
 }
 
 
 .hero-right {
-    position: relative;
-    width: 25%;
-    left: 27%;
+    width: 43%;
+    justify-content: center;
+    align-items: center;
+    transform: translate(18rem, -9rem);
     bottom: 5%;
 }
 
 .hero-botton {
     display: flex;
-    position: relative;
-    top: 9%;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-4rem);
     width: 90%;
     height: 6rem;
     background-color: #ffff;
     box-shadow: 0px 10px 40px #00000056;
     border-radius: 10px;
-    padding: 1rem;
+    padding-top: 3%;
+    padding-left: 3%;
+   
 }
 
 .text1 {
@@ -166,20 +164,17 @@ body {
 }
 
 #servicos {
+    justify-content: center;
+    align-items: center;
     position: relative;
     top: 20%;
     height: 550px;
-
-
 }
 
 .texto {
-
-    width: 60rem;
-    position: relative;
-    right: 27rem;
-    height: 7rem;
-    top: 0.5rem;
+    width: 100%;
+    height: 9rem;
+    padding-left: 1%;
     color: #4C5D73;
 }
 
@@ -187,8 +182,6 @@ body {
     padding-top: 2rem;
     color: #111826;
     font-size: 32px;
-
-
 }
 
 .card {
@@ -196,26 +189,22 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
+    transform: translateY(5rem);
 }
 
 .box {
-
-    position: relative;
     width: 15rem;
     height: 12rem;
     border-radius: 10px;
-    margin: 4%;
     background-color: #ffff;
-    box-shadow: 0px 10px 40px #00000056;
-}
-
-.box {
-    border: none;
     display: block;
     padding: 10px;
     top: 2rem;
     color: #4C5D73;
+    margin: 2%;
+    box-shadow: 0px 10px 40px #00000056;
 }
+
 
 .box h4 {
     color: #111826;
@@ -234,7 +223,7 @@ body {
 #sobre {
     position: relative;
     top: 22%;
-    height: 800px;
+    height: 700px;
 }
 
 #sobre p {
@@ -242,11 +231,9 @@ body {
 }
 
 .sobre-texto {
-    position: relative;
-    top: 0.5rem;
-    height: 4rem;
-    right: 3%;
-    width: 90%;
+    height: 5rem;
+    width: 100%;
+    padding-left: 1%;
 }
 
 .sobre-texto h2 {
@@ -259,20 +246,13 @@ body {
 
 .sobre-img {
     width: 523px;
-    height: 604px;
-    position: relative;
-    bottom: 4.5rem;
-    right: -5rem;
-
-
+    height: 580px;
 }
 
 .sobre-texto2 {
     width: 580px;
     height: 278px;
-    position: relative;
-    bottom: 30rem;
-    left: 10rem;
+    transform: translate(13rem, -29rem);
 }
 
 .btn-cases {
@@ -291,18 +271,18 @@ body {
 
 #atuacao {
     position: relative;
-    right: 1%;
-    width: 95%;
+    width: 100%;
     color: #4C5D73;
     top: 10%;
-    height: 600px;
+    height: 620px;
+    padding-left: 1%;
+    justify-content: center;
+    align-items: center;
 }
 
 #atuacao h2 {
-    position: relative;
     padding-top: 0.5%;
-    width: 50%;
-    right: 25%;
+    width: 100%;
     font-size: medium;
     font-size: 32px;
     color: #111826;
@@ -310,13 +290,11 @@ body {
 }
 
 .box2 {
-    width: 95%;
+    width: 100%;
     height: 400px;
-    padding: 5%;
+    padding: 6%;
     display: flex;
-    position: relative;
-    right: 0.5%; 
-    top: 7%;
+    padding-top: 9%;
 }
 
 .box-atuacao {
@@ -328,18 +306,21 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 2%;
+    padding: 4%;
+    margin: 2%;
     color: #111826;
 }
 
 #planos {
-    width: 95%;
+    width: 100%;
     height: 800px;
     position: relative;
-    right: 1%;
     color: #111826;
     font-size: 17px;
     top: 13%;
+    padding-left: 1%;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -351,25 +332,24 @@ body {
 
 .box3 {
     display: flex;
-    height: 400px;
-    padding: 4%;
-    position: relative;
-    top: 7%;
+    height: 500px;
+    padding-top: 6rem;   
 }
 
 .box-planos {
-    width: 268px;
+    width: 230px;
     height: 288px;
     border-radius: 10px;
     background-color: #ffff;
     box-shadow: 0px 10px 40px #00000056;
     text-align: left;
     padding: 1%;
+    margin: 1%;
 }
 
 .box-planos h2 {
     width: 120px;
-    height: 40px;
+    height: 50px;
     font-size: 32px;
     font-weight: bold;
     display: inline-flex;
@@ -396,7 +376,7 @@ body {
     font-size: 14px;
     color: #4C5D73;
     position: relative;
-    right: 5%;
+    right: 1%;
     top: 11%;
 }
 
@@ -404,31 +384,28 @@ body {
     border: 2px solid #304F8C;
     position: relative;
     top: 25%;
-    width: 220px;
+    width: 200px;
     height: 48px;
     border-radius: 8px;
     font-size: 15px;
     color: #304F8C;
     font-weight: bold;
     background-color: #ffff;
-
+    margin-left: 2%; 
 }
 
 .rec {
-    position: relative;
-    bottom: 90%;
-    left: 15%;
+    transform: translate(1.7rem, -13rem);
 }
 
 .text-rec {
-    position: relative;
-    bottom: 104%;
-    left: 31%;
+    transform: translate(0.1rem, -15rem);
+    width: 5rem;
     color: #304F8C;
 }
 
 .blue {
-    width: 268px;
+    width: 230px;
     height: 288px;
     border-radius: 10px;
     background-color: #304F8C;
@@ -437,6 +414,7 @@ body {
     padding: 1.5%;
     color: #ffff;
     font-size: 17px;
+    transform: translateY(0.6rem);
 }
 
 .blue h2 {
@@ -468,7 +446,7 @@ body {
     font-size: 14px;
     color: #ffffff;
     position: relative;
-    right: 5%;
+    right: 1%;
     top: 11%;
 }
 
@@ -477,7 +455,7 @@ body {
     border: 2px solid #304F8C;
     position: relative;
     top: 25%;
-    width: 220px;
+    width: 200px;
     height: 48px;
     border-radius: 8px;
     font-size: 15px;
@@ -486,8 +464,17 @@ body {
     background-color: #ffff;
 }
 
+#bra {
+    justify-content: center;
+    align-items: center;
+    width: 770px;
+    height: 423px;
+    background-color: #ffffff;
+    border-radius: 13px;
+    transform: translateY(-10rem);    
+}
 
-#comentario {
+.comentario {
     background-color: #EAEDF3;
     width: 770px;
     height: 392px;
@@ -497,19 +484,6 @@ body {
 
 }
 
-.bra {
-    width: 770px;
-    height: 423px;
-    background-color: #ffffff;
-    border-radius: 13px;
-}
-
-#comentarios,
-.bra {
-    position: relative;
-    bottom: 10%;
-
-}
 
 .aspas {
     position: relative;
@@ -523,8 +497,7 @@ body {
     bottom: 5%;
 }
 
-.bra p {
-
+#bra p {
     width: 537px;
     height: 96px;
     font-size: 16px;
@@ -540,13 +513,6 @@ body {
     top: 3%;
 }
 
-.coment{
-    width: 96%;
-    height: 68%;
-    position: relative;
-    top: 10%;
-    right: 2%;
-}
 
 footer{
     width: 100%;
@@ -673,10 +639,10 @@ footer h4{
     top: 10%;
     left: 15%;
 }
-.copy{
+.copy{ 
     width: 100%;
     position: relative;
-    top: 9%;
+    top: 15%;
 
 }
 
@@ -685,5 +651,6 @@ footer h4{
     height: 40px;
     text-align: center;
     margin-top: 6px;
+    font-weight: 100;
 }
 
