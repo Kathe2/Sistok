@@ -10,7 +10,6 @@
 body {
     width: 100vw;
     background-color: #E5E5E5;
-    border: 2px solid red;
     justify-content: center;
     align-items: center;
 
@@ -52,7 +51,7 @@ body {
     list-style-type: none;
     display: inline;
     padding-top: 0.7rem;
-    padding-left: 12rem;
+    padding-left: 11rem;
     height: 4rem;
     width: 27rem;
     justify-content: center;
@@ -121,8 +120,7 @@ body {
     width: 43%;
     justify-content: center;
     align-items: center;
-    transform: translate(18rem, -9rem);
-    bottom: 5%;
+    transform: translate(17rem, -9rem);
 }
 
 .hero-botton {
