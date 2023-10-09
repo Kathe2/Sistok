@@ -52,6 +52,7 @@ body {
     display: inline;
     padding-top: 0.7rem;
     padding-left: 11rem;
+    right: 15rem;
     height: 4rem;
     width: 27rem;
     justify-content: center;
@@ -120,7 +121,7 @@ body {
     width: 43%;
     justify-content: center;
     align-items: center;
-    transform: translate(17rem, -9rem);
+    transform: translate(35rem, -9rem);
 }
 
 .hero-botton {
@@ -133,8 +134,8 @@ body {
     background-color: #ffff;
     box-shadow: 0px 10px 40px #00000056;
     border-radius: 10px;
-    padding-top: 3%;
-    padding-left: 3%;
+    padding-top: 2%;
+    padding-left: 1%;
    
 }
 
@@ -304,8 +305,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 4%;
-    margin: 2%;
+    padding: 2%;
+    margin: 3%;
     color: #111826;
 }
 
@@ -342,7 +343,6 @@ body {
     box-shadow: 0px 10px 40px #00000056;
     text-align: left;
     padding: 1%;
-    margin: 1%;
 }
 
 .box-planos h2 {
